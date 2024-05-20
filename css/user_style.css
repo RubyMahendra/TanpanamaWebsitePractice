@@ -1,0 +1,66 @@
+body {
+    padding-top: 56px;
+}
+
+header {
+    color: #ffffff;
+}
+
+.hero-section {
+    background: url('../img/capuccino-scaled.jpg') center/cover no-repeat;
+    color: black;
+    text-align: left;
+    padding: 300px 0;
+}
+.hero-section:before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(5px); /* Adjust the blur amount as needed */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    backdrop-filter: blur(10px);
+}
+
+.container h1 {
+    position: relative;
+    margin-bottom: 20px;
+    color:black;
+}
+.container h2 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+}
+.container p {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color:black;
+}
+
+.container .btn {
+    position: absolute;
+}
+.menu-section {
+    padding: 200px 0;
+}
+
+.btn {
+    text-align: right;
+}
+.footer-section {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.footer-section p {
+   color:#ffffff;
+}

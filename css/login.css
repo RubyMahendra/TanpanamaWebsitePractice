@@ -1,0 +1,35 @@
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-header {
+    background-color: #e100ff;
+    color: #fff;
+    text-align: center;
+    padding: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+}
